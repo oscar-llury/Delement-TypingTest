@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <title></title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="java.js"></script>
+</head>
+
+<body>
+    <div id="general-container">
+        <div id="text-Timer"><b>Tiempo</b></div>
+        <div id="timer"></div>
+        <div id="score">
+            <p class="textResults">Palabras correctas: </p>
+            <div id="cw" class="divResult"></div>
+            <br>
+            <p class="textResults">Palabras incorrectas: </p>
+            <div id="ww" class="divResult"></div>
+            <br>
+            <p class="textResults">Palabras por minuto: </p>
+            <div id="wpm" class="divResult"></div>
+            <br>
+            <p class="textResults">Precisión: </p>
+            <div id="acc" class="divResult"></div>
+            <p class="divResult textResults"> %</p>
+            <br>
+        </div>
+        <div id="dis"></div>
+        <div id="inputTtype">
+            <input type="text" id="txt" autofocus dir="ltr" value="" dir="ltr" placeholder="" autocomplete="off"
+                autocorrect="off" autocapitalize="off" spellcheck="false" />
+            <button id="butRestart" onclick="restart()">Restart</button>
+        </div>
+    </div>
+
+</body>
+
+</html>
